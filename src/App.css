@@ -1,0 +1,34 @@
+.App-header {
+  min-height: 100vh;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+
+a {
+  color: #fff;
+}
+
+button {
+  background-color: #667174;
+  color: #fff;
+  border: 1px solid #282c34;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+@media only screen and (max-width: 425px) {
+  .grid {
+    grid-template-columns: 100%;
+  }
+}
